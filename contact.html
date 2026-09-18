@@ -1,122 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>TradeConnect | Contact</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TradeConnect | Contact Us</title>
-</head>
+    <body>
+        <header class="navbar">
+            <div class="logo">
+                <strong><em>Trade</em>Connect</strong>
+                <small>Reliable Home Maintenance Services</small>
+            </div>
 
-<body>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </nav>
 
-    <!-- Header containing the TradeConnect business name and slogan -->
-    <header>
-        <h1>TradeConnect</h1>
-        <p>Get in Touch With Us</p>
-    </header>
+            <div class="navigation_right_side">
+                <button class="search_button"> ⌕</button>
+                <button class="order_button">BOOK ONLINE</button>
+            </div>
+        </header>
 
-    <!-- Navigation menu for moving between website pages -->
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+        <main>
+            <section class="page_banner">
+                <img src="images/hero.jpg" alt="TradeConnect home maintenance services">
 
-    <!-- Main content containing information about TradeConnect -->
-    <main>
+                <div class="page_banner_text">
+                    <span class="section_eyebrow">WE'D LOVE TO HEAR FROM YOU</span>
+                    <h1>Contact Us</h1>
+                    <p class="page_banner_desc">
+                        Have a maintenance job you need help with? Get in touch
+                        with TradeConnect today.
+                    </p>
+                </div>
+            </section>
 
-        <section>
-            <h2>Contact TradeConnect</h2>
+            <section class="contact_section">
 
-            <p>
-                Do you need help with a home maintenance or repair
-                project? Contact TradeConnect and tell us how we can help.
-            </p>
-        </section>
+                <div class="contact_info">
+                    <h2>Get In Touch</h2>
+                    <p>
+                        Whether you need a quote, want to book a service, or
+                        just have a question, our team is ready to help.
+                    </p>
 
-        <section>
-            <h2>Contact Information</h2>
+                    <div class="info_item">
+                        <h4>Phone</h4>
+                        <a href="">(+27) 79 765 4780</a>
+                    </div>
 
-            <p>
-                <strong>Phone:</strong>
-                <a href="tel:+27123456789">013 395 6779</a>
-            </p>
+                    <div class="info_item">
+                        <h4>Email</h4>
+                        <a href="mailto:hello@tradeconnect.com">hello@tradeconnect.com</a>
+                    </div>
 
-            <p>
-                <strong>Email:</strong>
-                <a href="mailto:info@fixright.co.za">
-                    info@TradeConnect.co.za
-                </a>
-            </p>
+                    <div class="info_item">
+                        <h4>Service Area</h4>
+                        <p>Pretoria and surrounding areas</p>
+                    </div>
 
-            <p>
-                <strong>Service Area:</strong>
-                Pretoria and surrounding areas
-            </p>
+                    <div class="info_item">
+                        <h4>Working Hours</h4>
+                        <p>Monday - Saturday<br>07:00 - 18:00</p>
+                    </div>
+                </div>
 
-            <p>
-                <strong>Opening Hours:</strong>
-                Monday - Saturday, 08:00 - 17:00
-            </p>
-        </section>
+                <div class="contact_form_wrap">
+                    <h2>Request a Quote</h2>
 
-        <!-- Contact form -->
-        <section>
-            <h2>Request a Service</h2>
+                    <form>
 
-            <form>
+                        <div class="form_row">
+                            <div class="form_group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name">
+                            </div>
 
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name">
+                            <div class="form_group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                        </div>
 
-                <br><br>
+                        <div class="form_row">
+                            <div class="form_group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
 
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email">
+                            <div class="form_group">
+                                <label for="service">Service Needed</label>
+                                <select id="service" name="service">
+                                    <option value="">Select a service</option>
+                                    <option value="plumbing">Plumbing</option>
+                                    <option value="electrical">Electrical Services</option>
+                                    <option value="painting">Painting</option>
+                                    <option value="tiling">Tiling</option>
+                                    <option value="carpentry">Carpentry</option>
+                                    <option value="maintenance">General Maintenance</option>
+                                </select>
+                            </div>
+                        </div>
 
-                <br><br>
+                        <div class="form_row">
+                            <div class="form_group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6"></textarea>
+                            </div>
+                        </div>
 
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone">
+                        <button type="submit" class="menu_button">SEND MESSAGE</button>
 
-                <br><br>
+                    </form>
+                </div>
 
-                <label for="service">Select a Service:</label>
+            </section>
 
-                <select id="service" name="service">
+            <section class="map_section">
+                <div class="map_placeholder">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28757.413411817444!2d27.884182110839845!3d-25.715127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xaf150f2f5565122d%3A0xfdb98556035d050f!2sFrans%20Lungile%20Plumbers!5e0!3m2!1sen!2sza!4v1789760188098!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </section>
 
-                    <option value="plumbing">Plumbing</option>
-                    <option value="electrical">Electrical</option>
-                    <option value="painting">Painting</option>
-                    <option value="tiling">Tiling</option>
-                    <option value="carpentry">Carpentry</option>
-                    <option value="maintenance">General Maintenance</option>
+        </main>
 
-                </select>
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="footer-col brand">
+                    <h3>TRADECONNECT</h3>
+                    <span class="sub">HOME MAINTENANCE</span>
+                    <p>Reliable, professional home maintenance services you can trust.</p>
+                </div>
 
-                <br><br>
+                <div class="footer-col">
+                    <h4>QUICK LINKS</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
 
-                <label for="message">Message:</label>
+                <div class="footer-col">
+                    <h4>OUR SERVICES</h4>
+                    <ul>
+                        <li>Plumbing</li>
+                        <li>Electrical</li>
+                        <li>Painting</li>
+                        <li>Tiling</li>
+                        <li>Carpentry</li>
+                    </ul>
+                </div>
 
-                <br>
+                <div class="footer-col">
+                    <h4>CONTACT US</h4>
+                    <p>(+27) 79 765 4780</p>
+                    <p>hello@tradeconnect.com</p>
+                </div>
+            </div>
 
-                <textarea id="message" name="message" rows="6" cols="40"></textarea>
-
-                <br><br>
-
-                <button type="submit">Send Enquiry</button>
-
-            </form>
-        </section>
-
-    </main>
-
-    <<!-- Footer containing copyright information -->
-    <footer>
-        <p>&copy; 2026 TradeConnect. All rights reserved.</p>
-    </footer>
-
-</body>
-
+            <div class="footer-bottom">
+                <p>&copy; 2026 TradeConnect. All rights reserved.</p>
+                <p>Privacy Policy &nbsp; | &nbsp; Terms & Conditions</p>
+            </div>
+        </footer>
+    </body>
 </html>
